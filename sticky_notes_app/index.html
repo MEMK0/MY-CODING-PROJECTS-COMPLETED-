@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Notes App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sticky Notes</h1>
+    <button id="addNoteBtn">+ Add Note</button>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+    <div id="searchBar">
+  <input type="text" id="searchInput" placeholder="Search notes...">
+</div>
+
+
+  </header>
+<div id="controls">
+  <label for="colorPicker">Choose Note Color:</label>
+  <select id="colorPicker">
+    <option value="#fffd82">Yellow</option>
+    <option value="#a0c4ff">Blue</option>
+    <option value="#bdb2ff">Purple</option>
+    <option value="#ffadad">Pink</option>
+    <option value="#caffbf">Green</option>
+  </select>
+</div>
+
+  <main id="notesContainer">
+    <!-- Notes will appear here -->
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
